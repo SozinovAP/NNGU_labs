@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gtest-Debug-04cf31fefed0412caec1.json",
+					"name" : "gtest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alexs/source/repos/SozinovAP/mp-lab5-Polinom/Созинов/gtest/out/build/x64-Debug",
+		"source" : "C:/Users/alexs/source/repos/SozinovAP/mp-lab5-Polinom/Созинов/gtest"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

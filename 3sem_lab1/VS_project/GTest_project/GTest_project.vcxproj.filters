@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Monomial.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Polynomial.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tables\TableTreeAVL.cpp">
+      <Filter>External Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tables\TableArray.cpp">
+      <Filter>External Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tables\Table.cpp">
+      <Filter>External Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tests\test_TableArray.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tests\test_TableTreeAVL.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tables\ArraySortTable.cpp">
+      <Filter>External Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tables\HashTableList.cpp">
+      <Filter>External Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tests\test_ArraySortTable.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tests\test_HashTableList.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Parser\Parser.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Parser\Phrase.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tests\test_TableHash.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tests\test_TableList.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tables\TableHash.cpp">
+      <Filter>External Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tables\TableList.cpp">
+      <Filter>External Files\Tables</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="External Files">
+      <UniqueIdentifier>{7dd44567-e1a7-4570-a355-2b6ff33defe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Files\Tables">
+      <UniqueIdentifier>{3bc03ba8-b410-43d4-bcde-781d70defd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{dd75ea5a-1d4c-4a10-9f6b-61f459e6ebc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GTest_project.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

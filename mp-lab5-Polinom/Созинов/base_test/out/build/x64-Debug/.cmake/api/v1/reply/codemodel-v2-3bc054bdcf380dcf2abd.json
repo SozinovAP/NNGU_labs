@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "postfix_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-postfix_test-Debug-27ee20e671763d0027d4.json",
+					"name" : "postfix_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alexs/source/repos/SozinovAP/mp-lab5-Polinom/Созинов/base_test/out/build/x64-Debug",
+		"source" : "C:/Users/alexs/source/repos/SozinovAP/mp-lab5-Polinom/Созинов/base_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

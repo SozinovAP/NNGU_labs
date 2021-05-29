@@ -1,0 +1,23 @@
+﻿Сборка начата 28.11.2019 1:05:07.
+     1>Проект "C:\Users\alexs\source\repos\SozinovAP\mp2-lab4\Созинов\base\base.vcxproj" в узле 3 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\base.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\alexs\source\repos\SozinovAP\mp2-lab4\Созинов\Release\base.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\gtest\release gtest.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\alexs\source\repos\SozinovAP\mp2-lab4\Созинов\Release\base.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\alexs\source\repos\SozinovAP\mp2-lab4\Созинов\Release\base.lib" /MACHINE:X86 /SAFESEH Release\TestWork.obj
+         Release\TJobStream.obj
+         Release\TClasster.obj
+     1>LINK : fatal error LNK1181: не удается открыть входной файл "gtest.lib"
+     1>Сборка проекта "C:\Users\alexs\source\repos\SozinovAP\mp2-lab4\Созинов\base\base.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\alexs\source\repos\SozinovAP\mp2-lab4\Созинов\base\base.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         LINK : fatal error LNK1181: не удается открыть входной файл "gtest.lib"
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00.44

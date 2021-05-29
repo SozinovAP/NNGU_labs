@@ -1,0 +1,156 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+cl: командная строка warning D9002: пропуск неизвестного параметра "-Aa"
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+cl: командная строка warning D9002: пропуск неизвестного параметра "--target=arm-arm-none-eabi"
+cl: командная строка warning D9002: пропуск неизвестного параметра "-mcpu=cortex-m3"
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+cl: командная строка warning D9002: пропуск неизвестного параметра "-Aa"
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+cl: командная строка warning D9002: пропуск неизвестного параметра "--target=arm-arm-none-eabi"
+cl: командная строка warning D9002: пропуск неизвестного параметра "-mcpu=cortex-m3"
+CMakeCCompilerId.c
+C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.c : fatal error C1083: Не удается открыть файл созданный компилятором: C:\Users\alexs\source\repos\SozinovAP\mp-lab5-Polinom\Созинов\gtest\out\build\x64-Debug\CMakeFiles\3.15.19080502-MSVC_2\CompilerIdC\CMakeCCompilerId.obj: Permission denied,
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+использование: cl [ параметр... ] имя_файла... [ /link параметр_компоновки... ]
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.23.28106.4 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+использование: cl [ параметр... ] имя_файла... [ /link параметр_компоновки... ]

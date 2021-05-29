@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\alexs\source\repos\SozinovAP\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TMatrix.can_create_matrix_with_positive_length" Duration="1" />
+    <TestDuration Test="TMatrix.cant_create_too_large_matrix" Duration="37" />
+    <TestDuration Test="TMatrix.throws_when_create_matrix_with_negative_length" Duration="1" />
+    <TestDuration Test="TMatrix.can_create_copied_matrix" Duration="1" />
+    <TestDuration Test="TMatrix.copied_matrix_is_equal_to_source_one" Duration="1" />
+    <TestDuration Test="TMatrix.copied_matrix_has_its_own_memory" Duration="1" />
+    <TestDuration Test="TMatrix.can_get_size" Duration="1" />
+    <TestDuration Test="TMatrix.can_set_and_get_element" Duration="1" />
+    <TestDuration Test="TMatrix.throws_when_set_element_with_negative_index" Duration="1" />
+    <TestDuration Test="TMatrix.throws_when_set_element_with_too_large_index" Duration="1" />
+    <TestDuration Test="TMatrix.can_assign_matrix_to_itself" Duration="1" />
+    <TestDuration Test="TMatrix.can_assign_matrices_of_equal_size" Duration="1" />
+    <TestDuration Test="TMatrix.assign_operator_change_matrix_size" Duration="1" />
+    <TestDuration Test="TMatrix.can_assign_matrices_of_different_size" Duration="1" />
+    <TestDuration Test="TMatrix.compare_equal_matrices_return_true" Duration="1" />
+    <TestDuration Test="TMatrix.compare_matrix_with_itself_return_true" Duration="1" />
+    <TestDuration Test="TMatrix.matrices_with_different_size_are_not_equal" Duration="1" />
+    <TestDuration Test="TMatrix.can_add_matrices_with_equal_size" Duration="1" />
+    <TestDuration Test="TMatrix.cant_add_matrices_with_not_equal_size" Duration="1" />
+    <TestDuration Test="TMatrix.can_subtract_matrices_with_equal_size" Duration="1" />
+    <TestDuration Test="TMatrix.cant_subtract_matrixes_with_not_equal_size" Duration="1" />
+    <TestDuration Test="TVector.can_create_vector_with_positive_length" Duration="1" />
+    <TestDuration Test="TVector.cant_create_too_large_vector" Duration="1" />
+    <TestDuration Test="TVector.throws_when_create_vector_with_negative_length" Duration="1" />
+    <TestDuration Test="TVector.throws_when_create_vector_with_negative_startindex" Duration="1" />
+    <TestDuration Test="TVector.can_create_copied_vector" Duration="1" />
+    <TestDuration Test="TVector.copied_vector_is_equal_to_source_one" Duration="1" />
+    <TestDuration Test="TVector.copied_vector_has_its_own_memory" Duration="1" />
+    <TestDuration Test="TVector.can_get_size" Duration="1" />
+    <TestDuration Test="TVector.can_get_start_index" Duration="1" />
+    <TestDuration Test="TVector.can_set_and_get_element" Duration="1" />
+    <TestDuration Test="TVector.throws_when_set_element_with_negative_index" Duration="1" />
+    <TestDuration Test="TVector.throws_when_set_element_with_too_large_index" Duration="1" />
+    <TestDuration Test="TVector.can_assign_vector_to_itself" Duration="1" />
+    <TestDuration Test="TVector.can_assign_vectors_of_equal_size" Duration="1" />
+    <TestDuration Test="TVector.assign_operator_change_vector_size" Duration="1" />
+    <TestDuration Test="TVector.can_assign_vectors_of_different_size" Duration="1" />
+    <TestDuration Test="TVector.compare_equal_vectors_return_true" Duration="1" />
+    <TestDuration Test="TVector.compare_vector_with_itself_return_true" Duration="1" />
+    <TestDuration Test="TVector.vectors_with_different_size_are_not_equal" Duration="1" />
+    <TestDuration Test="TVector.can_add_scalar_to_vector" Duration="1" />
+    <TestDuration Test="TVector.can_subtract_scalar_from_vector" Duration="1" />
+    <TestDuration Test="TVector.can_multiply_scalar_by_vector" Duration="1" />
+    <TestDuration Test="TVector.can_add_vectors_with_equal_size" Duration="1" />
+    <TestDuration Test="TVector.cant_add_vectors_with_not_equal_size" Duration="1" />
+    <TestDuration Test="TVector.can_subtract_vectors_with_equal_size" Duration="1" />
+    <TestDuration Test="TVector.cant_subtract_vectors_with_not_equal_size" Duration="1" />
+    <TestDuration Test="TVector.can_multiply_vectors_with_equal_size" Duration="1" />
+    <TestDuration Test="TVector.cant_multiply_vectors_with_not_equal_size" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

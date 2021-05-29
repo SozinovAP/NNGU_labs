@@ -1,0 +1,5 @@
+#include "gtest.h"
+#include "TMonom.h"
+#include "TMonom.cpp"
+#include "TPolynom.h"
+#include "TPolynom.cpp"
