@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "9/VUloy3ibTIcZQlIgrD/yjHTz6fs86r53egJOtlNSX0uCRJHjCWt72wUpAE7x9UAbZXWvYvXpIJEFiN/D9+hw==",
+  "success": true,
+  "projectFilePath": "D:\\IP-2\\IP-2\\Project2.0\\Project2.0\\Project2.0.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lioni\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\lioni\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\lioni\\.nuget\\packages\\opencvsharp4\\4.5.0.20201013\\opencvsharp4.4.5.0.20201013.nupkg.sha512",
+    "C:\\Users\\lioni\\.nuget\\packages\\opencvsharp4.runtime.win\\4.5.0.20201013\\opencvsharp4.runtime.win.4.5.0.20201013.nupkg.sha512",
+    "C:\\Users\\lioni\\.nuget\\packages\\opencvsharp4.windows\\4.5.0.20201013\\opencvsharp4.windows.4.5.0.20201013.nupkg.sha512",
+    "C:\\Users\\lioni\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\lioni\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\lioni\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

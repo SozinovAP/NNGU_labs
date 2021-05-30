@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\IP-2\\IP-2\\Project2.0\\Project2.0\\Project2.0.csproj": {}
+  },
+  "projects": {
+    "D:\\IP-2\\IP-2\\Project2.0\\Project2.0\\Project2.0.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\IP-2\\IP-2\\Project2.0\\Project2.0\\Project2.0.csproj",
+        "projectName": "Project2.0",
+        "projectPath": "D:\\IP-2\\IP-2\\Project2.0\\Project2.0\\Project2.0.csproj",
+        "packagesPath": "C:\\Users\\lioni\\.nuget\\packages\\",
+        "outputPath": "D:\\IP-2\\IP-2\\Project2.0\\Project2.0\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lioni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "OpenCvSharp4.Windows": {
+              "target": "Package",
+              "version": "[4.5.0.20201013, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

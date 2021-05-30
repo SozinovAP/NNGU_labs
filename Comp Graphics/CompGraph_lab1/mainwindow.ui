@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Graphics Filters</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="contextMenuPolicy">
+    <enum>Qt::ActionsContextMenu</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGraphicsView" name="view">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>1</horstretch>
+        <verstretch>2</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="renderHints">
+       <set>QPainter::LosslessImageRendering|QPainter::TextAntialiasing</set>
+      </property>
+      <property name="transformationAnchor">
+       <enum>QGraphicsView::AnchorViewCenter</enum>
+      </property>
+      <property name="resizeAnchor">
+       <enum>QGraphicsView::AnchorViewCenter</enum>
+      </property>
+      <property name="viewportUpdateMode">
+       <enum>QGraphicsView::FullViewportUpdate</enum>
+      </property>
+      <property name="rubberBandSelectionMode">
+       <enum>Qt::IntersectsItemShape</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QProgressBar" name="progressJob">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+          <horstretch>22</horstretch>
+          <verstretch>1</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ButtonBack">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>1</horstretch>
+          <verstretch>1</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Отмена</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="open"/>
+    <addaction name="save"/>
+    <addaction name="saveas"/>
+    <addaction name="undo"/>
+    <addaction name="redo"/>
+    <addaction name="close"/>
+   </widget>
+   <widget class="QMenu" name="filter">
+    <property name="title">
+     <string>Фильтр</string>
+    </property>
+    <widget class="QMenu" name="point">
+     <property name="title">
+      <string>Точечный</string>
+     </property>
+     <widget class="QMenu" name="wave">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="title">
+       <string>Волна</string>
+      </property>
+      <addaction name="wave1"/>
+      <addaction name="wave2"/>
+     </widget>
+     <addaction name="inverse"/>
+     <addaction name="BlWh"/>
+     <addaction name="sepia"/>
+     <addaction name="brightness"/>
+     <addaction name="wave"/>
+     <addaction name="transf"/>
+     <addaction name="turn"/>
+     <addaction name="grayWorld"/>
+     <addaction name="autolevel"/>
+    </widget>
+    <widget class="QMenu" name="matrix">
+     <property name="title">
+      <string>Матричный</string>
+     </property>
+     <widget class="QMenu" name="sobelFilter">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="title">
+       <string>Фильтр Собеля</string>
+      </property>
+      <addaction name="sobelX"/>
+      <addaction name="sobelY"/>
+     </widget>
+     <addaction name="blur"/>
+     <addaction name="gaussianBlurring"/>
+     <addaction name="sobelFilter"/>
+     <addaction name="sharp"/>
+     <addaction name="emboss"/>
+     <addaction name="median"/>
+     <addaction name="maximum"/>
+     <addaction name="glowingEdges"/>
+    </widget>
+    <widget class="QMenu" name="mat_morphology">
+     <property name="title">
+      <string>Мат Морфология</string>
+     </property>
+     <addaction name="dilation"/>
+     <addaction name="erosion"/>
+     <addaction name="opening"/>
+     <addaction name="closing"/>
+     <addaction name="tophat"/>
+    </widget>
+    <addaction name="point"/>
+    <addaction name="matrix"/>
+    <addaction name="mat_morphology"/>
+   </widget>
+   <addaction name="file"/>
+   <addaction name="filter"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="open">
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="undo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="redo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Повторить</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="inverse">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Инверсия</string>
+   </property>
+  </action>
+  <action name="BlWh">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Ч/Б</string>
+   </property>
+  </action>
+  <action name="sepia">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Сепия</string>
+   </property>
+  </action>
+  <action name="brightness">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Яркость</string>
+   </property>
+  </action>
+  <action name="blur">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Размытие</string>
+   </property>
+  </action>
+  <action name="gaussianBlurring">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Размытие по Гауссу</string>
+   </property>
+  </action>
+  <action name="sharp">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Резкость</string>
+   </property>
+  </action>
+  <action name="close">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Закрыть</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="sobelX">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>По оси Х</string>
+   </property>
+  </action>
+  <action name="sobelY">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>По оси У</string>
+   </property>
+  </action>
+  <action name="emboss">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Тиснение</string>
+   </property>
+  </action>
+  <action name="waveX">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>По оси Х</string>
+   </property>
+  </action>
+  <action name="waveY">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>По оси У</string>
+   </property>
+  </action>
+  <action name="wave1">
+   <property name="text">
+    <string>Волна1</string>
+   </property>
+  </action>
+  <action name="wave2">
+   <property name="text">
+    <string>Волна2</string>
+   </property>
+  </action>
+  <action name="transf">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Перенос</string>
+   </property>
+  </action>
+  <action name="turn">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Поворот</string>
+   </property>
+  </action>
+  <action name="glass">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Эффект &quot;стекла&quot;</string>
+   </property>
+  </action>
+  <action name="median">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Медианный</string>
+   </property>
+  </action>
+  <action name="maximum">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Фильтр &quot;Максимума&quot;</string>
+   </property>
+  </action>
+  <action name="glowingEdges">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Светящиеся края</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>Повторить</string>
+   </property>
+  </action>
+  <action name="save">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Сохранить ...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="saveas">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Сохранить как ...</string>
+   </property>
+  </action>
+  <action name="grayWorld">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Серый мир</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Идеальный отражатель</string>
+   </property>
+  </action>
+  <action name="autolevel">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Линейная коррекция</string>
+   </property>
+  </action>
+  <action name="ddd">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Расширение</string>
+   </property>
+  </action>
+  <action name="dd">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Сужение</string>
+   </property>
+  </action>
+  <action name="ddddd">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Откытие</string>
+   </property>
+  </action>
+  <action name="cd">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Закрытие</string>
+   </property>
+  </action>
+  <action name="dilation">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Расширение</string>
+   </property>
+  </action>
+  <action name="erosion">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Сужение</string>
+   </property>
+  </action>
+  <action name="opening">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Открытие</string>
+   </property>
+  </action>
+  <action name="closing">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Закрытие</string>
+   </property>
+  </action>
+  <action name="tophat">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Top Hat</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
