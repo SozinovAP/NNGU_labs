@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/rectRed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="424dp"
+        android:src="@drawable/rectangle_red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rectBlue"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectGreen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="374dp"
+        android:src="@drawable/rectangle_green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rectBlue" />
+
+    <ImageView
+        android:id="@+id/rectBlue"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="424dp"
+        android:src="@drawable/rectangle_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rectRed" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="@string/text_for_rect"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/rectBlue"
+        app:layout_constraintEnd_toEndOf="@+id/rectBlue"
+        app:layout_constraintStart_toStartOf="@+id/rectBlue"
+        app:layout_constraintTop_toTopOf="@+id/rectBlue" />
+
+    <Button
+        android:id="@+id/to_fiveRectangles_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/text_next"
+        android:onClick="ToFiveRectangles"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

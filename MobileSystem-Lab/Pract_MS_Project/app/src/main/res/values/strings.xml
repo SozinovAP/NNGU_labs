@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">AI Text Generate</string>
+
+    <string name="but_next">Next</string>
+    <string name="text_input_text">Input phrase</string>
+    <string name="text_prev">Prev</string>
+    <string name="text_start">Start</string>
+    <string name="text_input_count">Input count words</string>
+    <string name="text_100" translatable="false">100</string>
+
+</resources>

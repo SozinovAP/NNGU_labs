@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pract_MS_7</string>
+    <string name="text_reset">Reset</string>
+    <string name="text_increment">Increment</string>
+    <string name="text_decrement">Decrement</string>
+    <string name="default_value">0</string>
+    <string name="text_back">Back</string>
+    <string name="text_next">Next</string>
+    <string name="text_set">Set</string>
+    <string name="text_add">Add</string>
+    <string name="text_delete">Delete</string>
+</resources>

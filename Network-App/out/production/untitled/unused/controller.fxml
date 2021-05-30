@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="500.0" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unused.Controller">
+   <children>
+      <Button layoutX="660.0" layoutY="468.0" mnemonicParsing="false" onAction="#CreateNewClock" text="Add clock" AnchorPane.bottomAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <Button fx:id="alarm" disable="true" layoutX="345.0" layoutY="234.0" mnemonicParsing="false" onAction="#CreateNewAlarm" text="Add alarm" AnchorPane.bottomAnchor="140.0" AnchorPane.rightAnchor="100.0" />
+      <Label fx:id="hour" layoutX="70.0" layoutY="110.0" text="0" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="minute" layoutX="120.0" layoutY="110.0" text="0" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="second" layoutX="170.0" layoutY="110.0" text="0" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="70.0" layoutY="70.0" text="Time:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ListView fx:id="alarmsView" layoutX="27.0" layoutY="188.0" prefHeight="200.0" prefWidth="200.0" visible="false" />
+      <Button fx:id="setTime" disable="true" layoutX="335.0" layoutY="321.0" mnemonicParsing="false" onAction="#SetTime" text="Set time" AnchorPane.bottomAnchor="60.0" AnchorPane.rightAnchor="105.0" />
+      <Button fx:id="startClock" disable="true" layoutX="359.0" layoutY="68.0" mnemonicParsing="false" onAction="#StartTime" text="Start" />
+      <Button fx:id="pauseClock" disable="true" layoutX="356.0" layoutY="98.0" mnemonicParsing="false" onAction="#PauseTime" text="Pause" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <Region prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="stopClock" disable="true" layoutX="359.0" layoutY="130.0" mnemonicParsing="false" onAction="#StopTime" text="Stop" />
+   </children>
+</AnchorPane>

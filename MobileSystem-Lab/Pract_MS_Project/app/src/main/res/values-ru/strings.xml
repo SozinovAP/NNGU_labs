@@ -1,0 +1,10 @@
+<resources>
+    <!--<string name="app_name">AI Text Generate</string>-->
+
+    <string name="but_next">Дальше</string>
+    <string name="text_input_text">Введите фразу</string>
+    <string name="text_prev">Назад</string>
+    <string name="text_start">Старт</string>
+    <string name="text_input_count">Введите количество слов</string>
+
+</resources>

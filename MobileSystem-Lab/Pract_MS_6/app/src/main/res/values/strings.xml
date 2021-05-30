@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pract_MS_6</string>
+    <string name="text_back">Back</string>
+    <string name="text_next">Next</string>
+    <string name="text_something_text">SOMETHING TEXT</string>
+    <string name="text_time">Time</string>
+    <string name="text_start">Start</string>
+    <string name="text_stop">Stop</string>
+    <string name="text_reset">Reset</string>
+    <string name="text_custom_1">Custom 1</string>
+    <string name="text_custom_2">Custom 2</string>
+    <string name="text_custom_3">Custom 3</string>
+    <string name="text_custom_4">Custom 4</string>
+    <string name="text_create">Create</string>
+</resources>

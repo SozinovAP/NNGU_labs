@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:MyCustomCompAttribute="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_custom_component_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomComponentActivity">
+
+    <com.example.pract_ms_6.CustomComponent
+        android:id="@+id/custom_comp_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        MyCustomCompAttribute:red="255"
+        MyCustomCompAttribute:green="0"
+        MyCustomCompAttribute:blue="0"/>
+
+    <Button
+        android:id="@+id/but_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="PrevTask"
+        android:text="@string/text_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/but_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="NextTask"
+        android:text="@string/text_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/but_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/text_create"
+        android:onClick="CreateNewButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/but_next"
+        app:layout_constraintStart_toEndOf="@+id/but_back" />
+</androidx.constraintlayout.widget.ConstraintLayout>

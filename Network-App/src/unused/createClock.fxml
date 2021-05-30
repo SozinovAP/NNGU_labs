@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="278.0" prefWidth="263.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="unused.ControllerCreateClock">
+   <children>
+      <TextField fx:id="mark" layoutX="66.0" layoutY="96.0" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="46.0" />
+      <TextField fx:id="cost" layoutX="71.0" layoutY="146.0" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="96.0" />
+      <TextField fx:id="hour" layoutX="67.0" layoutY="184.0" prefHeight="25.0" prefWidth="35.0" promptText="HH" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="146.0" />
+      <TextField fx:id="minute" layoutX="111.0" layoutY="184.0" prefHeight="25.0" prefWidth="35.0" promptText="MM" AnchorPane.leftAnchor="125.0" AnchorPane.topAnchor="146.0" />
+      <TextField fx:id="second" layoutX="153.0" layoutY="184.0" prefHeight="25.0" prefWidth="35.0" promptText="SS" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="146.0" />
+      <CheckBox fx:id="hasSecond" layoutX="140.0" layoutY="179.0" mnemonicParsing="false" onAction="#CheckStatus" selected="true" text="Second" AnchorPane.topAnchor="179.0" />
+      <Label alignment="CENTER" layoutX="98.0" layoutY="48.0" text="Create new clock" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0" />
+      <Label layoutX="28.0" layoutY="111.0" text="Mark" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="50.0" />
+      <Label layoutX="30.0" layoutY="150.0" text="Cost" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="100.0" />
+      <Label layoutX="29.0" layoutY="188.0" text="Time" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="150.0" />
+      <Button fx:id="createClock" layoutX="188.0" layoutY="215.0" mnemonicParsing="false" onAction="#Create" text="Create" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+      <Button fx:id="cancelW" layoutX="42.0" layoutY="213.0" mnemonicParsing="false" onAction="#CancelWindow" text="Cancel" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="40.0" />
+   </children>
+</AnchorPane>

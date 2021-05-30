@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Pract_MS_4</string>
+    <string name="text_back">back</string>
+    <string name="text_next">Next</string>
+    <string name="text_cur_stack_depth">Current stack depth:</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="text_next_task">Next task</string>
+    <string name="prev_tak">Prev tak</string>
+    <string name="text_your_text">Input text</string>
+    <string name="text_input_text">Input text</string>
+    <string name="text_apply">Apply</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_your_date">Selected date</string>
+    <string name="text_select_date">Select date</string>
+    <string name="text_date_not_selected">Date not selected</string>
+    <string name="text_your_time">Selected time</string>
+    <string name="text_select_time">Select time</string>
+    <string name="text_time_not_selected">Time not selected</string>
+    <string name="text_description">Description</string>
+    <string name="text_date">Date</string>
+    <string name="text_add_note">Add note</string>
+    <string name="text_open">Open</string>
+    <string name="text_clear_stack">clear</string>
+    <string name="text_decrement">Decrement</string>
+    <string name="text_increment">Increment</string>
+    <string name="text_count">Count:</string>
+
+    <string-array name="listView">
+        <item>Wow</item>
+        <item>Waw</item>
+        <item>Wew</item>
+        <item>Wyw</item>
+    </string-array>
+</resources>

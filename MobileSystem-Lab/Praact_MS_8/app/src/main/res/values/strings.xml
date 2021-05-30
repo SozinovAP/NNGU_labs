@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Praact_MS_8</string>
+    <string name="text_post_request">Post Request</string>
+    <string name="text_put_request">Put Request</string>
+    <string name="but_get_image">Get Image</string>
+    <string name="text_get_request">Get Request</string>
+    <string name="text_next">Next</string>
+</resources>

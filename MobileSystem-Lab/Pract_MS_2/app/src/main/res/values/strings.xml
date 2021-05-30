@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pract_MS_2</string>
+    <string name="text_for_rect">Rectangle</string>
+    <string name="text_next">Next</string>
+    <string name="text_previous">Back</string>
+    <string name="text_anim">anim</string>
+    <string name="text_apply">apply</string>
+    <string name="text_count">count</string>
+    <string name="text_cancel">cancel</string>
+    <string name="text_calc">calculate</string>
+</resources>

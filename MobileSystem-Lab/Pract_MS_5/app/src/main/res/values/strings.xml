@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pract_MS_5</string>
+    <string name="text_next">Next</string>
+    <string name="text_back">Prev</string>
+    <string name="text_add_button">Add button</string>
+    <string name="text_add">Add</string>
+    <string name="text_option_1">Option 1</string>
+    <string name="text_option_2">Option 2</string>
+</resources>

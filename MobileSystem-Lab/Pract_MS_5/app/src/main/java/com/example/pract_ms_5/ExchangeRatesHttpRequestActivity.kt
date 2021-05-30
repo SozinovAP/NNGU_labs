@@ -1,0 +1,25 @@
+package com.example.pract_ms_5
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.View
+
+class ExchangeRatesHttpRequestActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_exchange_rates_http_request)
+    }
+
+
+    fun NextTask(view: View)
+    {
+        val newAct = Intent(this, NoteInDataBase::class.java);
+        startActivity(newAct);
+    }
+
+    fun PrevTask(view: View)
+    {
+        this.finish();
+    }
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pract_MS_3</string>
+    <string name="text_inp_number">input number</string>
+    <string name="text_button">Button</string>
+    <string name="text_released">Released</string>
+    <string name="text_pressed">Pressed</string>
+    <string name="text_moved">Moved</string>
+    <string name="text_click_me">Click ME</string>
+    <string name="text_start_value">0</string>
+    <string name="text_count">Count:</string>
+    <string name="text_next">Next</string>
+    <string name="text_switch">Switch</string>
+    <string name="text_switch_off">off</string>
+    <string name="text_switch_on">on</string>
+    <string name="text_seekBar">Current value: </string>
+
+</resources>
